@@ -1,0 +1,9 @@
+// Definition of text colors in the elements of 'body' and its direct children
+
+body {
+    color: #3D3D3D;
+    
+    > .red {
+      color: #FF0000;
+    }
+  }
