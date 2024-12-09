@@ -1,0 +1,7 @@
+// Generating h1 to h5 styles with incremental font sizes using @for loop
+
+@for $i from 1 through 5 {
+    h#{$i} {
+      font-size: #{$i}px;
+    }
+  }
