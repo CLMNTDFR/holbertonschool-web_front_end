@@ -1,0 +1,9 @@
+// Application of styles for 'button' and change of color when hovering
+
+button {
+    color: #FF0000;
+  
+    &:hover {
+      color: #00FF00;
+    }
+  }
