@@ -1,0 +1,9 @@
+// Resetting the margin and padding for 'body' and defining the margin for internal 'p'
+
+body {
+    margin: 0px;
+    padding: 0px;
+    p {
+      margin: 10px;
+    }
+  }
