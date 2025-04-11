@@ -1,10 +1,10 @@
 class roomDimensions {
-    constructor(width, length) {
+    constructor() {
         this.width = 50;
         this.length = 100;
     }
 
-    getArea(width, length) {
+    getArea() {
         return this.width * this.length;
     }
 }

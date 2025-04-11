@@ -1,5 +1,5 @@
 class studentHogwarts {
-    constructor(privateScore, name) {
+    constructor() {
         this.privateScore = 0;
         this.name = null;
     }
@@ -27,7 +27,7 @@ class studentHogwarts {
 
 const harry = new studentHogwarts();
 
-harry.name = "Harry";
+harry.setName("Harry");
 
 for (let i = 0; i < 4; i++) {
     harry.rewardStudent();
@@ -37,7 +37,7 @@ console.log(harry.getScore());
 
 const draco = new studentHogwarts();
 
-draco.name = "Draco";
+draco.setName("Draco");
 
 draco.rewardStudent();
 
