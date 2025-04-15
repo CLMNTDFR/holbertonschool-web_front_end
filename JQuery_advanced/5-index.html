@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Task 5</title>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script type="application/javascript">
+      $(document).ready(function () {
+        function createFamilyTree() {
+          const FamilyTree =
+            $('<table>').append(
+              $('<thead>').append(
+                $('<tr>').append(
+                  $('<th>').text('Firstname'),
+                  $('<th>').text('Lastname')
+                )
+              ),
+              $('<tbody>')
+            );
+          $('body').append(FamilyTree)
+        }
+
+        function addNewMember (firstName, lastName) {
+          const newMember =
+            $('<tr>').append(
+              $('<td>').text(firstName),
+              $('<td>').text(lastName),
+              $('<td>').text('(x)').css({'background-color': 'orange', 'cursor': 'pointer',}).click(function () {
+                $(this).parent().remove();
+              })
+            );
+          $('tbody').append(newMember);
+        }
+
+        createFamilyTree();
+        addNewMember('Guillaume', 'Salva');
+        addNewMember('Arielle', 'Snizt');
+        addNewMember('Fanette', 'Snizt');
+        addNewMember('Gerard', 'Snizt');
+        addNewMember('Victor', 'Salva');
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- Content Body -->
+  </body>
+
+</html>

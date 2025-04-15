@@ -1,0 +1,89 @@
+{
+  "posts": [
+    {
+      "id": "3",
+      "title": "Advanced JSON Server Techniques",
+      "author": "Alice Johnson"
+    },
+    {
+      "id": "5",
+      "title": "Practical AJAX Applications",
+      "author": "Patricia Neal"
+    },
+    {
+      "id": "6",
+      "title": "Working with Asynchronous Calls",
+      "author": "Samuel Peterson"
+    },
+    {
+      "id": "7",
+      "title": "Exploring Front-End Frameworks",
+      "author": "Dorothy Mendoza"
+    },
+    {
+      "id": "8",
+      "title": "Full-Stack Development Essentials",
+      "author": "Brian Hall"
+    },
+    {
+      "id": "9",
+      "title": "Building Scalable Web Applications",
+      "author": "Rebecca Moore"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "This is a great post!",
+      "postId": 1
+    },
+    {
+      "id": "2",
+      "body": "Very informative, thanks!",
+      "postId": 2
+    },
+    {
+      "id": "3",
+      "body": "I never knew this, amazing!",
+      "postId": 3
+    },
+    {
+      "id": "4",
+      "body": "This helped me understand REST so much better.",
+      "postId": 4
+    },
+    {
+      "id": "5",
+      "body": "AJAX seems less daunting now, thanks!",
+      "postId": 5
+    },
+    {
+      "id": "6",
+      "body": "Asynchronous calls were always confusing to me, not anymore.",
+      "postId": 6
+    },
+    {
+      "id": "7",
+      "body": "Front-end frameworks are a game changer!",
+      "postId": 7
+    },
+    {
+      "id": "8",
+      "body": "This article is a must-read for full-stack devs.",
+      "postId": 8
+    },
+    {
+      "id": "9",
+      "body": "Scaling applications is so critical, great insights.",
+      "postId": 9
+    },
+    {
+      "id": "10",
+      "body": "Docker makes deployment so much easier.",
+      "postId": 10
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
