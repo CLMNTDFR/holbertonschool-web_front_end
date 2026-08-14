@@ -37,6 +37,7 @@ This project focuses on making the Techium website responsive. It covers mobile-
 6. Add the behavior based on menu-btn state: open the menu and turn the icon into an X.
 7. Make the font size responsive: scale the html font-size on smaller screens.
 8. Improve the Works section: show work titles on mobile instead of hover.
+9. Improve the Footer section: center footer links and social icons on mobile.
 
 ## Author
 
