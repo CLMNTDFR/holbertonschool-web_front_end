@@ -19,6 +19,7 @@ This project covers lexical scoping, closures, the execution stack, binding, and
 ## Tasks
 
 0. Lexical scoping and welcome message: nested `displayFullName` reads `fullName` from `welcome`.
+1. Closure scope chain: nested `outer`, `inner`, and `inception` alerts.
 
 ## Author
 
