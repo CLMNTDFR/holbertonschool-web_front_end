@@ -456,9 +456,9 @@ ul.row {
   transition: background .2s ease-out;
 }
 
-.header .menu-icon .navicon::after,
-.header .menu-icon .navicon::before {
-  content: "";
+.header .menu-icon .navicon::before,
+.header .menu-icon .navicon::after {
+  content: '';
   display: block;
   width: 100%;
   height: 100%;
