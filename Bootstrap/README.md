@@ -16,6 +16,7 @@ This project uses Bootstrap 4.4.1 (CSS via CDN) to build responsive layouts with
 
 0. Reboot styling: add Bootstrap to reset the default browser CSS.
 1. Blocks: build a responsive grid with Bootstrap column classes.
+2. Table of chemical elements: style the header, alert, badge, and dark table.
 
 ## Author
 
