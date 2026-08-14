@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Login to the website</title>
+    </head>
+    <body>
+        <h1>Login to the website</h1>
+        <input type="text" id="firstname" placeholder="Firstname">
+        <input type="text" id="email" placeholder="Email">
+        <button onclick="setCookies()">Log me in</button>
+
+        <h1>Cookies</h1>
+        <button onclick="showCookies()">Show the cookies</button>
+
+        <script>
+            function setCookies() {
+                document.cookie = 'firstname=' + document.getElementById('firstname').value;
+                document.cookie = 'email=' + document.getElementById('email').value;
+            }
+
+            function showCookies() {
+                const paragraph = document.createElement('p');
+                paragraph.innerHTML = 'Cookies: ' + document.cookie;
+                document.body.appendChild(paragraph);
+            }
+        </script>
+    </body>
+</html>
