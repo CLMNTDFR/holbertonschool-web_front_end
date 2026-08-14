@@ -32,6 +32,7 @@ This project covers lexical scoping, closures, the execution stack, binding, and
 11. Changing stack order: defer the 100 prime counts with setTimeout.
 12. Binding: bind getArea to roomDimensions so this stays the room.
 13. Binding and closure: bind logWelcomeUser to the user object.
+14. Simple callback: fetch the Stack Overflow Wikipedia extract via XMLHttpRequest.
 
 ## Author
 
