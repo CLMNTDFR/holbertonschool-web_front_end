@@ -25,6 +25,7 @@ This project covers lexical scoping, closures, the execution stack, binding, and
 4. Complex closure: `addBy` and `divideBy` return reusable math functions.
 5. Changing DOM with closure: buttons switch Spooky, Dark, and Scream themes.
 6. Private methods with closure: Hogwarts students keep score hidden.
+7. Stack order and setTimeout: the zero-delay timeout runs after the loop.
 
 ## Author
 
