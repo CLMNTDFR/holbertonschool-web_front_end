@@ -38,6 +38,7 @@ This project focuses on making the Techium website responsive. It covers mobile-
 7. Make the font size responsive: scale the html font-size on smaller screens.
 8. Improve the Works section: show work titles on mobile instead of hover.
 9. Improve the Footer section: center footer links and social icons on mobile.
+10. Fix the top header background: add article-page class and hero padding.
 
 ## Author
 
