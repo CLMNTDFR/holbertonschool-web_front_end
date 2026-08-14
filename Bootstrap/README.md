@@ -18,6 +18,7 @@ This project uses Bootstrap 4.4.1 (CSS via CDN) to build responsive layouts with
 1. Blocks: build a responsive grid with Bootstrap column classes.
 2. Table of chemical elements: style the header, alert, badge, and dark table.
 3. Cards: build three coding cards and a CodePen modal.
+4. Bob Dylan: add tabs, fade transitions, and a collapsible discography.
 
 ## Author
 
