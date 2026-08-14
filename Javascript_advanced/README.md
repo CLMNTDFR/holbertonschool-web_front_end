@@ -24,6 +24,7 @@ This project covers lexical scoping, closures, the execution stack, binding, and
 3. Closure and loops: each `studentSeat` closure keeps its own seat number.
 4. Complex closure: `addBy` and `divideBy` return reusable math functions.
 5. Changing DOM with closure: buttons switch Spooky, Dark, and Scream themes.
+6. Private methods with closure: Hogwarts students keep score hidden.
 
 ## Author
 
