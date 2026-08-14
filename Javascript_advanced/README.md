@@ -31,6 +31,7 @@ This project covers lexical scoping, closures, the execution stack, binding, and
 10. Execution stack and timing: run countPrimeNumbers 100 times and measure it.
 11. Changing stack order: defer the 100 prime counts with setTimeout.
 12. Binding: bind getArea to roomDimensions so this stays the room.
+13. Binding and closure: bind logWelcomeUser to the user object.
 
 ## Author
 
