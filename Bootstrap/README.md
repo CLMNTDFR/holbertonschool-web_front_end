@@ -20,6 +20,7 @@ This project uses Bootstrap 4.4.1 (CSS via CDN) to build responsive layouts with
 3. Cards: build three coding cards and a CodePen modal.
 4. Bob Dylan: add tabs, fade transitions, and a collapsible discography.
 5. Show/Hide screen size: toggle titles and the middle block with display utilities.
+6. Overwrite CSS: retheme the pricing example with a custom stylesheet.
 
 ## Author
 
