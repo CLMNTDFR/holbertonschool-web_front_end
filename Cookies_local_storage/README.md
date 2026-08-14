@@ -19,6 +19,7 @@ This project shows how to create cookies in Javascript, how to read them, and ho
 ## Tasks
 
 0. Create basic cookie: save firstname and email, then print the cookie string.
+1. Cookie expiration: cookies now expire in 10 days on path /.
 
 ## Author
 
