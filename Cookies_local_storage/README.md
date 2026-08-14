@@ -1,6 +1,6 @@
 # Cookies and local storage
 
-This project shows how to create cookies in Javascript, how to read them, and how the browser web storage works.
+This project shows how to create cookies in Javascript, how to read them, and how the browser web storage works
 
 ## Requirements
 
@@ -18,8 +18,9 @@ This project shows how to create cookies in Javascript, how to read them, and ho
 
 ## Tasks
 
-0. Create basic cookie: save firstname and email, then print the cookie string.
+0. Create basic cookie: save firstname and email, then print the cookie string
 1. Cookie expiration: cookies now expire in 10 days on path /.
+2. Read cookie: show Email and Firstname from getCookie
 
 ## Author
 

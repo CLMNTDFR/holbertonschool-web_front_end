@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Login to the website</title>
+    </head>
+    <body>
+        <h1>Login to the website</h1>
+        <input type="text" id="firstname" placeholder="Firstname">
+        <input type="text" id="email" placeholder="Email">
+        <button onclick="setCookies()">Log me in</button>
+
+        <h1>Cookies</h1>
+        <button onclick="showCookies()">Show the cookies</button>
+
+        <script>
+            function setCookies() {
+                const date = new Date();
+                date.setTime(date.getTime() + (10 * 24 * 60 * 60 * 1000));
+                const expires = 'expires=' + date.toUTCString();
+                const path = 'path=/';
+                document.cookie = 'firstname=' + document.getElementById('firstname').value + '; ' + expires + '; ' + path;
+                document.cookie = 'email=' + document.getElementById('email').value + '; ' + expires + '; ' + path;
+            }
+
+            function getCookie(name) {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.indexOf(name + '=') === 0) {
+                        return cookie.substring(name.length + 1);
+                    }
+                }
+                return '';
+            }
+
+            function showCookies() {
+                const paragraph = document.createElement('p');
+                paragraph.innerHTML = 'Email: ' + getCookie('email') + ' - Firstname: ' + getCookie('firstname');
+                document.body.appendChild(paragraph);
+            }
+        </script>
+    </body>
+</html>
