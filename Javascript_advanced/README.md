@@ -29,6 +29,7 @@ This project covers lexical scoping, closures, the execution stack, binding, and
 8. Stack order in functions: orders call processPayment before they finish.
 9. Prime numbers and timing: measure countPrimeNumbers with performance.now().
 10. Execution stack and timing: run countPrimeNumbers 100 times and measure it.
+11. Changing stack order: defer the 100 prime counts with setTimeout.
 
 ## Author
 
