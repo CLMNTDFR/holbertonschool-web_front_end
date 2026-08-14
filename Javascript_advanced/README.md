@@ -27,6 +27,7 @@ This project covers lexical scoping, closures, the execution stack, binding, and
 6. Private methods with closure: Hogwarts students keep score hidden.
 7. Stack order and setTimeout: the zero-delay timeout runs after the loop.
 8. Stack order in functions: orders call processPayment before they finish.
+9. Prime numbers and timing: measure countPrimeNumbers with performance.now().
 
 ## Author
 
