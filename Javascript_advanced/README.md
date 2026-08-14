@@ -21,6 +21,7 @@ This project covers lexical scoping, closures, the execution stack, binding, and
 0. Lexical scoping and welcome message: nested `displayFullName` reads `fullName` from `welcome`.
 1. Closure scope chain: nested `outer`, `inner`, and `inception` alerts.
 2. Closure: `welcomeMessage` returns a function that alerts Welcome plus the name.
+3. Closure and loops: each `studentSeat` closure keeps its own seat number.
 
 ## Author
 
