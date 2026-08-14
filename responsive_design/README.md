@@ -34,6 +34,7 @@ This project focuses on making the Techium website responsive. It covers mobile-
 3. Generate images with responsive breakpoints: add srcset versions for about and article images.
 4. Create the mobile icon and hide the menu: add a checkbox toggle for the navbar.
 5. Hamburger: draw the mobile menu icon with CSS.
+6. Add the behavior based on menu-btn state: open the menu and turn the icon into an X.
 
 ## Author
 
