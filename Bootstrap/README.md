@@ -15,6 +15,7 @@ This project uses Bootstrap 4.4.1 (CSS via CDN) to build responsive layouts with
 ## Tasks
 
 0. Reboot styling: add Bootstrap to reset the default browser CSS.
+1. Blocks: build a responsive grid with Bootstrap column classes.
 
 ## Author
 
