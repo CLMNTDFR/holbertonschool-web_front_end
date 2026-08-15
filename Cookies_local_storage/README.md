@@ -24,6 +24,7 @@ This project shows how to create cookies in Javascript, how to read them, and ho
 3. Delete cookie: login form or welcome plus logout, based on cookies
 4. Use js-cookie: set, get and remove cookies with the CDN library
 5. Local storage: click products to fill a cart that survives refresh
+6. Session storage: same cart, but a new tab starts empty
 
 ## Author
 
