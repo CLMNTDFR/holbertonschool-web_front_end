@@ -27,6 +27,7 @@ This project shows how to load jQuery from a CDN, create and modify DOM elements
 8. Pagination: browse Wikipedia results 10 per page with a page list.
 9. Wrap/unwrap: fade the result list while Wikipedia is loading.
 10. Another Get API: list posts from a local json-server.
+11. Post query: send a new post from a form to the local API.
 
 ## Author
 
