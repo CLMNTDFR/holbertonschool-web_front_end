@@ -1,0 +1,15 @@
+{
+  "name": "jquery_advanced",
+  "version": "1.0.0",
+  "description": "This project shows how to load jQuery from a CDN, create and modify DOM elements, handle clicks, and send AJAX queries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
