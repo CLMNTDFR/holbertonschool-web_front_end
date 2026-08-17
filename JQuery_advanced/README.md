@@ -22,6 +22,7 @@ This project shows how to load jQuery from a CDN, create and modify DOM elements
 3. Chain DOM elements: build the same table piece by piece with append and text.
 4. HTML function: replace the tbody rows with Gerard Bonissa using html.
 5. Click attribute and remove function: add members and delete a row with the orange (x).
+6. Val, before, and prepend functions: form to insert a member before or after.
 
 ## Author
 
