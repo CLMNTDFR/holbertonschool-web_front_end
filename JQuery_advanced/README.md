@@ -20,6 +20,7 @@ This project shows how to load jQuery from a CDN, create and modify DOM elements
 1. Creating a DOM element: build a paragraph with jQuery and append it to the body.
 2. Creating multiple DOM elements at once: append a whole family table from one string.
 3. Chain DOM elements: build the same table piece by piece with append and text.
+4. HTML function: replace the tbody rows with Gerard Bonissa using html.
 
 ## Author
 
