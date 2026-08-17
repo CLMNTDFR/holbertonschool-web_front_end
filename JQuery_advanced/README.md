@@ -18,6 +18,7 @@ This project shows how to load jQuery from a CDN, create and modify DOM elements
 
 0. Setup your dev environment: load jQuery slim from the CDN and check it in the console.
 1. Creating a DOM element: build a paragraph with jQuery and append it to the body.
+2. Creating multiple DOM elements at once: append a whole family table from one string.
 
 ## Author
 
