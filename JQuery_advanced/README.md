@@ -21,6 +21,7 @@ This project shows how to load jQuery from a CDN, create and modify DOM elements
 2. Creating multiple DOM elements at once: append a whole family table from one string.
 3. Chain DOM elements: build the same table piece by piece with append and text.
 4. HTML function: replace the tbody rows with Gerard Bonissa using html.
+5. Click attribute and remove function: add members and delete a row with the orange (x).
 
 ## Author
 
