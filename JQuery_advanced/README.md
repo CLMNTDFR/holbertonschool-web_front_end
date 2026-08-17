@@ -25,6 +25,7 @@ This project shows how to load jQuery from a CDN, create and modify DOM elements
 6. Val, before, and prepend functions: form to insert a member before or after.
 7. Query - Setup your dev environment: search Wikipedia and list the results.
 8. Pagination: browse Wikipedia results 10 per page with a page list.
+9. Wrap/unwrap: fade the result list while Wikipedia is loading.
 
 ## Author
 
